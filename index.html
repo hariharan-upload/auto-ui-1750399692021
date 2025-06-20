@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upload Digital - AI Powered Content Creation</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .container {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+    }
+    .left {
+      flex: 1;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo {
+      font-weight: 900;
+      font-size: 2.5rem;
+      color: #fff;
+      user-select: none;
+      position: relative;
+      z-index: 2;
+      font-family: 'Georgia', serif;
+    }
+    .logo span {
+      display: block;
+      font-size: 0.7rem;
+      font-weight: 400;
+      letter-spacing: 0.15em;
+      margin-top: 4px;
+    }
+    .flower-lines {
+      position: absolute;
+      width: 70%;
+      height: 70%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 1;
+    }
+    .flower-lines svg {
+      width: 100%;
+      height: 100%;
+      stroke: #7039fc;
+      stroke-width: 1.5;
+      fill: none;
+      opacity: 0.8;
+    }
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 3rem 4rem;
+      max-width: 600px;
+    }
+    h1 {
+      font-weight: 900;
+      font-size: 2.5rem;
+      line-height: 1.2;
+      margin: 0 0 1rem 0;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin: 0;
+      max-width: 500px;
+    }
+    p em {
+      font-style: italic;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="logo">
+        upload
+        <span>D I G I T A L</span>
+      </div>
+      <div class="flower-lines" aria-hidden="true">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flower lines">
+          <g transform="translate(100 100)">
+            <!-- 6 petal-like ellipses rotated evenly around center -->
+            <ellipse cx="0" cy="0" rx="70" ry="30" transform="rotate(0)" />
+            <ellipse cx="0" cy="0" rx="70" ry="30" transform="rotate(60)" />
+            <ellipse cx="0" cy="0" rx="70" ry="30" transform="rotate(120)" />
+            <ellipse cx="0" cy="0" rx="70" ry="30" transform="rotate(180)" />
+            <ellipse cx="0" cy="0" rx="70" ry="30" transform="rotate(240)" />
+            <ellipse cx="0" cy="0" rx="70" ry="30" transform="rotate(300)" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="right">
+      <h1>AI-POWERED CONTENT<br />CREATION<br />FOR THE FUTURE</h1>
+      <p>
+        How Upload Digital delivers <em>faster,<br />cost-effective video and static content</em><br />
+        using AI tools
+      </p>
+    </div>
+  </div>
+<script>
+  // No interactive functionality needed for this static UI
+</script>
+</body>
+</html>
